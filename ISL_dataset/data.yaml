@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 21
+names: ['Drink', 'Food', 'Good', 'Grattitude', 'Hello', 'Home', 'I love you', 'Morning', 'Namaste', 'Night', 'No', 'Now', 'Please', 'Question', 'Remember', 'Sorry', 'Superb', 'Thank You', 'Victory', 'Well Done', 'Yes']
+
+roboflow:
+  workspace: action-vocalizer
+  project: indian-signs
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/action-vocalizer/indian-signs/dataset/3
